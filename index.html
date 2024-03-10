@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fases do dia</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="image">
+            <img class="madrugada" src="imagens/madrugada-beija-flor.jpg" alt="foto-madrugada">
+            <img class="manha" src="imagens/manha.jpg" alt="foto-manha">
+            <img class="tarde" src="imagens/1_whatsapp_image_2023_06_28_at_07_05_17-28361326.jpeg" alt="foto-tarde"><br>
+            <img  class="noite" src="imagens/linda-noite-no-oceano-com-lua-cheia_104785-866.avif" alt="imagem-noite">
+        </div>
+
+        <div class="time-slider" class="slider">
+            <input type="range" min="0" max="24" value="12" id="hora-slider">
+            <span id="hora-display">12:00</span>
+        </div>
+
+        <div class="text">
+            <h1 class="txtmanha">Manhã</h1>
+            <h1 class="txttarde">Tarde</h1>
+            <h1 class="txtnoite">Noite</h1>
+            <h1 class="txtmadrugada">Madrugada</h1>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

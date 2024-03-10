@@ -1,0 +1,52 @@
+
+
+/* Estiliza o "track" (faixa) do controle deslizante */
+input[type="range"]::-webkit-slider-runnable-track {
+    width: 100%; /* Define a largura total */
+    height: 10px; /* Define a altura */
+    background-color: gray; /* Cor de fundo */
+    border-radius: 5px; /* Define a borda arredondada */
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #00000013;
+}
+
+.container {
+    max-width: 400px;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto; /* Altura automática para manter proporções */
+    max-width: 300px; /* Largura máxima desejada */
+    max-height: 300px; /* Altura máxima desejada */
+    object-fit: cover; /* Garante que a imagem cubra o contêiner */
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="range"] {
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: aquamarine;
+}
+
+.time {
+    font-size: 14px;
+    color: #666;
+}
+
+.text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
